@@ -1,0 +1,8 @@
+add.txt: 4 lines, 12 words 
+input.txt: 3 lines, 5 words 
+numbers.txt: 5 lines, 5 words 
+TOTAL: 12 lines, 22 words 
+add.txt: 4 lines, 12 words 
+input.txt: 6 lines, 18 words 
+numbers.txt: 6 lines, 11 words 
+TOTAL: 16 lines, 41 words 
