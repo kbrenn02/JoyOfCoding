@@ -1,6 +1,6 @@
 # Day 1: Hello World
 print("Hello, World!") # first program with JoC
-
+   
 # Day 2: Draw a triangle with Turtle
 import turtle
 
