@@ -168,6 +168,11 @@ function draw() {
     // paddle and if it is rebound it
     if (x > paddlex && x < paddlex + paddlew) {
       dy = -dy;
+      if (x > paddlex && x < paddlex + paddlew/2){
+        dx = -1; // if the ball hits the left side of the paddle, the ball goes left
+      } else {
+        dx = 1;  // if the ball hits the right side of the paddle, the ball goes right. Making it a more responsive game
+      }
     }
   }
  if (y + dy > height) {
